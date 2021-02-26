@@ -1,0 +1,92 @@
+                        REST
+
+REST - Representational State Transfer.
+
+É um estilo de arquitetura de software que define a implementação de um serviços web.
+
+Podem trabalhar com os formatos XML, JSON ou outros. 
+
+Lembrando que não é um protocolo. 
+
+
+                        VANTAGENS
+
+Permite integrações entre aplicações e também entre cliente e servidor em páginas web e 
+aplicações.
+
+Utiliza dos métodos HTTP para definir a operação que está sendo efetuada.
+
+Arquitetura de fácil compreensão. 
+
+                        API 
+
+API - Application Programming Interface;
+
+São conjuntos de rotina documentados e disponibilizados por uma aplicação para que 
+outras aplicações possam consumir suas funcionalidades. 
+
+Ficou popular com o aumento dos serviços web;
+
+As maiores plataformas de tecnologia disponibilizam APIs para acessos de suas 
+funcionalidades, algumas delas são: Facebook, Twitter, telegram, WhatApp, GitHub, etc.
+
+                    PRINCIPAIS MÉTODOS HTTP
+
+GET - Solicita a representação de um recurso;
+
+POST - Solicita a criação de um recurso;
+
+DELETE - Solicita a exclusão de um recurso;
+
+PUT - Solicita a atualização de um recurso.
+
+                    JSON
+
+JSON - JavaScript Object Notation;
+
+Formatação leve utilizada para troca de mensagens entre sistemas;
+
+Usa-se de uma estrutura de chave e valor e também de listas ordenadas.
+
+Um dos formatos mais popualares e mais utilizados para troca de mensagens entre 
+sistemas.
+
+Um JSON deve conter apenas informações que possam ser representadas em formato de texto.
+Regras:
+
+Não pode ter funções;
+Não pode ter comentários;
+Todo texto sempre tem aspas duplas;
+As propriedades sempre tem aspas duplas.
+
+Desta forma, imagine o envio do pagamento de uma nova fatura com o nome do cliente, 
+um identificador numérico qualquer do cliente e uma lista de pagamentos a serem feitos
+ na fatura em questão. Tais informações teriam, em JSON, o seguinte formato:
+
+{
+   "cliente": {
+       "id": 2020,
+       "nome": "Maria Aparecida"
+   },
+   "pagamentos": [
+       {
+           "id": 123,
+           "descricacao": "Compra do livro Cangaceiro JavaScript",
+           "valor": 50.5
+       },
+       {
+           "id": 124,
+           "descricacao": "Mensalidade escolar",
+           "valor": 1500
+       }
+   ]
+}
+
+Embora se assemelhe com um objeto JavaScript literal, o JSON apresentado segue 
+exatamente todas as regras citadas anteriormente. Além disso, é um formato muito
+mais simples e menos burocrático do que o mundialmente famoso XML que durante muito
+tempo foi utilizado como padrão para envio de informações entre aplicações.
+
+
+
+
