@@ -1,0 +1,56 @@
+                    COMPARANDO MONOLITO COM MICROSERVIÇOS
+
+                        MONOLITO = PŔOS E CONTRA 
+
+PŔOS 
+
+- Baixa complexidade;
+- Monitoramento simplificado; 
+
+CONTRA
+
+- Stack única;
+- Compartilhamento de recursos;
+- Acoplamento;
+- Mais complexo a escalabilidade.
+
+                        MICROSERVIÇOS #1 = PŔOS E CONTRA 
+
+PRÓS
+
+- Stack dinâmica;
+- Simples escalabilidade.
+
+CONTRA 
+
+- Acoplamento (dependência direta um do outro);
+- Monitoramento mais complexo;
+- Provisionamento mais complexo;
+
+                            MICROSERVIÇOS #2 = PŔOS E CONTRA 
+
+PRÓS
+
+- Stack dinâmica;
+- Simples escalabilidade;
+- Desacoplamento.
+
+CONTRA
+
+- Monitoramento mais complexo;
+- Provisionamento mais complexo.
+
+
+                            MICROSERVIÇOS #3 = PŔOS E CONTRA 
+
+PRÓS
+
+- Stack dinâmica;
+- Simples escalabilidade;
+- Desacoplamento;
+- Menor complexidade.
+
+CONTRA
+
+- Provisionamento mais complexo;
+- Plataforma inteira depende do gerenciador de pipeline. 
