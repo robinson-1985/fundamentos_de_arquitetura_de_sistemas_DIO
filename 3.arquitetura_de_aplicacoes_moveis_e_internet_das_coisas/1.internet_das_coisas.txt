@@ -1,1 +1,110 @@
-                      
+            INTRODUÇÃO A INTERNET DAS COISAS 
+
+            CONCEITOS BÁSICOS DE IoT
+
+Things - que são as coisas;
+
+Cloud - que é a nuvem para armazenar as informações;
+
+Intelligence - que é para otimizar problemas, refazer processos, etc. 
+
+O conceito de Internet das Coisas, ou Internet of Things (IoT) é o de uma enorme rede
+de dispositivos conectados, mas não limitada aos suspeitos habituais. Seu computador,
+smartphone, tablet ou set-top box, entre outros, são gadgets que dependem da internet
+para funcionar apropriadamente, assim como equipamentos de grande porte como servidores 
+de grandes empresas.
+
+O foco da IoT é voltado para todos os demais equipamentos do dia a dia de um indivíduo,
+instituição, empresa ou mesmo de uma cidade inteira, aqueles que você não imaginaria 
+num primeiro momento que podem se beneficiar da rede.
+
+Sua TV ou videogame são os exemplos mais óbvios de dispositivos que migraram do mundo 
+offline para o online, mas pense também em sua geladeira, fogão, lâmpadas, aspirador 
+de pó, ar-condicionado, fechaduras, aparelho de som, carro, câmeras (fotográficas ou 
+de vigilância) e etc.
+
+O conceito de wearables, ou dispositivos vestíveis faz parte da primeira geração de 
+produtos de IoT voltados ao consumidor final, na forma de smartwatches e pulseiras 
+inteligentes. Todos esses dispositivos podem receber sensores que os permitam 
+conectar-se à internet e oferecer recursos extras.   
+
+                    POR QUE CONECTAR AS COISAS?
+
+- Embutir sensores em objetos do dia-a-dia;
+- Coletar dados dos sensores;
+- Usar o dado para tomar decisão. 
+
+
+                Quais os exemplos de Internet das Coisas?
+
+No geral, qualquer coisa pode ser conectada à internet, mas isso não significa que 
+tudo deveria sê-lo. A ideia principal por trás da Internet das Coisas é a de facilitar
+a vida dos usuários e clientes, tornando o uso de certos elementos mais simples e até 
+permitindo a automação de tarefas.
+
+Por exemplo:
+
+- Um aspirador de pó robô pode ser programado para limpar a casa depois da hora de 
+dormir;
+
+- As lâmpadas da casa podem emitir luzes em tons específicos durante vários momentos 
+do dia, ou se apagarem quando todos saírem;
+
+- O ar-condicionado pode se ativar cinco minutos antes de você chegar, deixando o 
+ambiente na temperatura correta;
+
+- Um fogão seria capaz de cortar o fornecimento de gás e avisar a companhia fornecedora 
+ao detectar um vazamento;
+
+- Freezers comerciais avisariam o fabricante em caso de defeito, evitando a perda de
+comida, vacinas ou outros elementos perecíveis ou pouco duráveis sem refrigeração;
+
+- Tratores automatizados seriam capazes de fazer o trabalho de um funcionário mesmo 
+à noite, com dados via satélite para evitar desperdício e utilizando a rede apenas 
+quando necessário;
+
+- Hospitais podem utilizar equipamentos capazes de coletar dados armazenados em 
+smartwatches, pulseiras inteligentes e outros dispositivos vestíveis que monitorem
+ os dados vitais do paciente, otimizando o atendimento e facilitando o diagnóstico.
+
+- wearables = relógio inteligente, celular, etc.
+
+- Agriculture = medição de umidade do solo, trator automático, etc.
+
+- smart transportation = coletam dados de trânsito, conversam entre si, etc. 
+
+- Energy efficiency = interpretação de fontes geradoras e consumidoras de energia.
+
+                        RFID SUPPLY CHAIN 
+
+A evolução da tecnologia RFID (Radio-Frequency IDentification, ou Identificação por 
+Radiofrequência), desenvolvida durante a Segunda Guerra Mundial foi essencial para a 
+Internet das Coisas, já que ela utiliza etiquetas e chips minúsculos para coleta e 
+armazenamento de dados via sinais de rádio.
+
+Com ela, é possível desde inibir o roubo de toalhas em hotéis a chipar funcionários 
+com o gadget, controlando o trânsito em setores de empresas que eles podem ou não 
+acessar.
+
+Os chips e etiquetas RFID também são importantes em pesquisa científica, como no
+monitoramento de colônias de abelhas em todo o mundo.
+
+                    COMPUTAÇÃO UBÍQUA
+
+Computação ubíqua tem como objetivo tornar a interação humano computador invisível, 
+ou seja, integrar a informática com as ações e comportamentos naturais das pessoas. 
+Não invisível como se não pudesse ver, mas, sim de uma forma que as pessoas nem 
+percebam que estão dando comandos a um computador, mas como se tivessem conversando 
+com alguém. Além disso, os computadores teriam sistemas inteligentes que estariam 
+conectados ou procurando conexão o tempo todo, dessa forma tornando-se assim 
+onipresente (Mark Weiser foi o conceituador dessa modalidade).
+
+                 DESAFIOS DA INTERNET DAS COISAS
+
+1. Privacidade e Segurança;
+2. Quantidade exponencial de dispositivos conectados na rede;
+3. Ser capaz de processar e armazenar uma enorme quantidade de informações;
+4. Gerar valor a partir dos dados coletados. 
+
+
+                    
