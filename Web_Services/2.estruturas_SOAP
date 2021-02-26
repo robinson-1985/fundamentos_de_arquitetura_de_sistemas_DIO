@@ -1,0 +1,60 @@
+                        SOAP
+
+SOAP - Simple Object Access Protocol
+
+- É um protocolo baseado em XMl paraa acesssar serviços web principlamente por HTTP;
+
+- Pode-se dizer que SOAP é uma definição de como serviços web se comunicam;
+
+- Foi desenvolvido para facilitar integrações entre aplicações. 
+
+                        VANTAGENS
+
+Permite integrações entre aplicações, independentes de linguagem, pois usa como 
+linguagem comum o XML;
+
+É independente de plataforma e software.
+
+Meio de transporte genérico, ou seja, pode ser usado por outros protocolos além 
+do HTTP.
+
+                            XML
+
+XML - Extensible Markup Language;
+
+É uma linguagem de marcação criada na década de 90 pela W3C;
+
+Facilita a separação de conteúdo;
+
+Não tem limitação de criação de tags (etiquetas);
+
+Linguagem comum para integrações entre aplicações.
+
+                    ESTRUTURAS SOAP
+
+O "SOAP Message" possui uma estrutura única que deve sempre ser seguida.
+
+1. Soap Envelope -> 2. SOAP Header -> 3.SOAP Body
+
+SOAP Envelope é o primeiro documento e serve para encapsular toda a mensagem SOAP.
+
+SOAP Header é o elemento onde possui informações de atributos e métodos da requisição.
+
+SOAP Body é o elemento que contém os detalhes da mensagem.
+
+Ex: 
+
+<SOAP-ENV:Envelope 
+    SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+    xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/">
+  <SOAP-ENV:Body>
+    <ns9531:hello xmlns:ns9531="uri:ws.di.uminho.pt/Hello">  1
+      <name xsi:type="xsd:string">José Carlos Ramalho</name> 2
+    </ns9531:hello>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+
