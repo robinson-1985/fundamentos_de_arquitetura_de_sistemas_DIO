@@ -1,0 +1,36 @@
+                       TIPOS DE ARQUITETURA 
+
+MONOLITO - tem única aplicação. O monolito é somente códigos.
+
+Microserviços - Uma arquitetura de microsserviços consiste em uma coleção de pequenos
+serviços autônomos. A microservices architecture consists of a collection of small, 
+autonomous services. Cada serviço é independente e deve implementar uma única 
+funcionalidade comercial.
+
+Tem um serviço para cada aplicação, porém, eu tenho vários serviços e posso conversar
+entre eles. 
+
+Microserviços #1 - um está conectado ao outro;
+
+Microserviços #2 - não está conectado diretamente um ao outro, porém, todos passam pela
+Messsage Broker. Isto torna mais robusto e dificil de quebrar porque não está vinculado
+diretamente. Contudo, se o messsage broker falhar a arquitetura inteira entra em colapso.
+
+- Facilidade e rapidez na atualização e implantação dos serviços. 
+- Aumentar a flexibilidade da infraestrutura. 
+- Escalabilidade. 
+- Estandardização de serviços. 
+- Redução de dívida técnica. ...
+- Desenvolvimento de práticas DevOps e de colaboração do time. 
+- Complexidade. 
+- Governança.
+
+Microserviços #3 - é uma arquitetura estilo pipeline, e é diferente da #2 porque 
+utiliza o caminho proxy HTTP -> Gerenciador de pipeline para depois acessar as Nodo 
+e serviço. O que permite de ter atividades separadas e acopladas desenvolvendo serviços
+diferentes. Ele se prepara para ter o melhor código possível e evitar bugs para fazer a 
+melhor performance. 
+
+Caminho: request -> proxy HTTP -> Gerenciador de pipeline -> Nodo 1 -> Serviço 1 -> Banco de 
+dados 1, assim por diante. 
+
