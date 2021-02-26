@@ -1,4 +1,4 @@
-                       TIPOS DE ARQUITETURA 
+ TIPOS DE ARQUITETURA 
 
 MONOLITO - tem única aplicação. O monolito é somente códigos.
 
@@ -31,6 +31,6 @@ e serviço. O que permite de ter atividades separadas e acopladas desenvolvendo 
 diferentes. Ele se prepara para ter o melhor código possível e evitar bugs para fazer a 
 melhor performance. 
 
-Caminho: request -> proxy HTTP -> Gerenciador de pipeline -> Nodo 1 -> Serviço 1 -> Banco de 
-dados 1, assim por diante. 
+Caminho: request -> proxy HTTP -> Gerenciador de pipeline -> Nodo 1 -> Serviço 1 -> 
+Banco de dados 1, assim por diante. 
 

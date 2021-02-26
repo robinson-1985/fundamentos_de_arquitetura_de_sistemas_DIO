@@ -11,7 +11,7 @@ acesso, operações e métodos.
 
 XSD - XML Schema Definition;
 
-É um schema no formtato XML usado para definir a estrutura de dados que será validada no 
+É um schema no formaato XML usado para definir a estrutura de dados que será validada no 
 XML. 
 
 O XSD funciona como uma documentação de como deve ser montado o SOAP Message (XML)
