@@ -1,0 +1,10 @@
+                GERENCIAMENTO DE ERROS 
+
+Onde é mais complexo:
+ - Pipeline assíncronos (Microserviços #2)
+ - Pipeline.
+
+Solução: 
+
+- Dead letter queue.
+- Filas de re-tentativas.

@@ -2,6 +2,9 @@
 
 MONOLITO - tem única aplicação. O monolito é somente códigos.
 
+Um navegador Web faz uma requisição ao proxy HTTP na qual chega até uma determinada
+instância da aplicação para retornar determinado dado. 
+
 Microserviços - Uma arquitetura de microsserviços consiste em uma coleção de pequenos
 serviços autônomos. A microservices architecture consists of a collection of small, 
 autonomous services. Cada serviço é independente e deve implementar uma única 
@@ -15,6 +18,8 @@ Microserviços #1 - um está conectado ao outro;
 Microserviços #2 - não está conectado diretamente um ao outro, porém, todos passam pela
 Messsage Broker. Isto torna mais robusto e dificil de quebrar porque não está vinculado
 diretamente. Contudo, se o messsage broker falhar a arquitetura inteira entra em colapso.
+A função do Message Broker é permitir identificar o motivo de um determinado serviço
+ter sido incapaz de responder no momneto de uma requisição.
 
 - Facilidade e rapidez na atualização e implantação dos serviços. 
 - Aumentar a flexibilidade da infraestrutura. 
