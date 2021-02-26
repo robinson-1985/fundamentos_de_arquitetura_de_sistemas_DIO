@@ -1,0 +1,25 @@
+                            SERVIÇOS WEB 
+
+Serviços Web ou Web Services são soluções para aplicações se comunicarem independentes
+de linguagem, software e hardware utilizados.
+
+Inicialmente Serviços Web foram criados para troca de mensagens utilizando a linguagem
+XML (Extensible Markup Language) sobre o protocolo HTTP sendo identificado por URI
+(Uniform Resource Identifier).
+
+Podemos dezer que Serviços Web são API's que se comuinicam por meio de redes sobre o 
+protocolo HTTP.
+
+                            VANTAGENS
+
+- Linguagem comum;
+- Integração;
+- Reutilização de implementação;
+- Segurança;
+- Custos.
+
+                        PRINCIPAIS TECNOLOGIAS
+
+SOAP; REST; XML; JSON. 
+
+                        
